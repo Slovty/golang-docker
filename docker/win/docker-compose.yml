@@ -1,0 +1,16 @@
+version: "1"
+
+services:
+  godev:
+    build: .
+    tty: true
+    stdin_open: true
+    environment:
+      TZ: Asia/Shanghai
+    ports:
+        - 8080:8080
+        - 8081:8081
+        - 8443:8443
+        - 8000:8000
+    volumes:
+      - D:/workSpace/goworkspace/src:/usr/local/src
