@@ -12,7 +12,7 @@
 
 [_docker-compose.yaml_](docker-compose.yml)
 ```
-version: "1"
+version: "3"
 
 services:
   godev:
